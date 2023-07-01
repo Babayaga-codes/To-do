@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#task-input {
+    width: 300px;
+    padding: 5px;
+}
+
+#add-button {
+    padding: 5px 10px;
+    margin-left: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#task-list {
+    margin-top: 20px;
+}
+
+.task {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.task span {
+    flex-grow: 1;
+}
+
+.task .delete-button {
+    margin-left: 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
